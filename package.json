@@ -1,0 +1,31 @@
+{
+  "name": "typed-rest-api-gh",
+  "version": "1.0.0",
+  "description": "This repository is for creating typed endpoints for use in projects that use TypeScript. Specifically this is intended for use with the [GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28). This is not intended to be an exhaustive list of all endpoints but is simply a working list of items as maintainers have added them. Please feel free to create a pull request and add in ones you don't see here that you use.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc", 
+    "lint": "eslint ./src/**/*.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "scottluskcis",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/openapi-types": "^22.2.0", 
+    "octokit": "^4.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "ts-node": "^10.9.2",
+    "globals": "^15.12.0",
+    "eslint": "^9.15.0",
+    "@eslint/js": "^9.15.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
